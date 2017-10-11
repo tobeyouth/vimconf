@@ -1,0 +1,25 @@
+if &compatible
+  set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'vim-scripts/ctags.vim'
+Bundle "scrooloose/nerdtree"
+Bundle "Lokaltog/vim-powerline"
+Bundle "jelera/vim-javascript-syntax"
+Bundle "othree/html5.vim"
+Bundle "tomasr/molokai"
+Bundle "klen/python-mode"
+Bundle "mikejakobsen/vim-sass"
+Bundle "vim-scripts/vim-es6"
+Bundle "wincent/command-t"
+Bundle "mxw/vim-jsx"
+Bundle "croaky/vim-colors-github"
+Bundle "mattn/emmet-vim"
+Bundle 'jistr/vim-nerdtree-tabs'
+
+filetype on
